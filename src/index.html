@@ -4,9 +4,55 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Leaderboard List App</title>
 </head>
 <body>
-  
+  <header id="page-header">
+    <nav>
+
+    </nav>
+  </header>
+  <main>
+    <h1>Leadboard</h1>
+    <div class="scores-container">
+      <section class="show-score">
+        <header>
+          <h2>Recent Scores</h2>
+          <button type="button" id="refresh">Refresh</button>
+        </header>
+        <table class="score-table">
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Score</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <form id="add-score">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name">
+        <input type="text" placeholder="Your score">
+        <input type="submit" value="submit" id="submit-score">
+      </form>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
