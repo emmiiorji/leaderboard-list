@@ -12,7 +12,6 @@ body {
 
 #page-header {
   min-height: 70px;
-
 }
 
 main {
@@ -29,6 +28,7 @@ main h1 {
 
 .scores-container {
   display: flex;
+
   /* align-items: center; */
   justify-content: center;
   gap: 40px;
@@ -42,6 +42,7 @@ main h1 {
 
 .show-score header {
   display: flex;
+
   /* gap: 15px; */
   width: 100%;
   justify-content: space-between;
@@ -50,8 +51,10 @@ main h1 {
 
 .show-score #refresh {
   /* padding: 5px 0; */
+
   /* margin: 10px; */
-  height: fit-content;
+
+  /* height: fit-content; */
   padding: 5px;
 }
 
@@ -66,13 +69,13 @@ main h1 {
   padding: 10px;
 }
 
-.score-table thead{
+.score-table thead {
   font-weight: bolder;
   border-bottom: 2px solid #222;
 }
 
 tr:nth-child(even) {
-  background: #dddddd;
+  background: #ddd;
 }
 
 #add-score {
