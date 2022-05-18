@@ -28,8 +28,6 @@ main h1 {
 
 .scores-container {
   display: flex;
-
-  /* align-items: center; */
   justify-content: center;
   gap: 40px;
   width: 90%;
@@ -42,18 +40,12 @@ main h1 {
 
 .show-score header {
   display: flex;
-
-  /* gap: 15px; */
   width: 100%;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
 .show-score #refresh {
-  /* padding: 5px 0; */
-
-  /* margin: 10px; */
-
   /* height: fit-content; */
   padding: 5px;
 }
@@ -89,7 +81,6 @@ tr:nth-child(even) {
 }
 
 #add-score input {
-  /* display: block; */
   padding: 5px;
   margin-bottom: 5px;
   width: 100%;
