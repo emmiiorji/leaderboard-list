@@ -51,13 +51,16 @@ main h1 {
 }
 
 .message {
-  font-size: larger;
   text-align: center;
+  font-size: larger;
+  display: none;
 }
 
 .message.error {
   color: #ff0000;
+  font-size: initial;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .score-table {
