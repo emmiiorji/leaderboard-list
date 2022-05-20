@@ -34,6 +34,26 @@ const createGame = async (name = 'Leaderboard Games') => {
   return gameId;
 };
 
+const createScore = async (gameId, scoreObject) => {
+  const url = `${baseURL}/${gamesEndPoint}/${scoresEndPoint(gameId)}`;
+
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(scoreObject),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    });
+    if (!response.ok) {
+      throw new Error('Error creating score');
+    }
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
 export {
   createGame, createScore, getScores, storageKey,
 };
