@@ -50,6 +50,22 @@ main h1 {
   padding: 5px;
 }
 
+.message {
+  text-align: center;
+  font-size: larger;
+}
+
+.message.error {
+  color: #f00;
+  font-size: initial;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
 .score-table {
   border: 2px solid #222;
   width: 100%;
