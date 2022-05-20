@@ -54,6 +54,24 @@ const createScore = async (gameId, scoreObject) => {
   }
 };
 
+const getScores = async (gameId) => {
+  const url = `${baseURL}/${gamesEndPoint}/${scoresEndPoint(gameId)}`;
+  let scores = [];
+  try {
+    const result = await fetch(url, {
+      method: 'GET',
+    });
+    scores = await result.json();
+    if (!result.ok) {
+      throw new Error('Error creating score');
+    }
+  } catch (error) {
+    return false;
+  }
+
+  return scores.result;
+};
+
 export {
   createGame, createScore, getScores, storageKey,
 };
