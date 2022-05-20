@@ -48,7 +48,7 @@ const handleCreateScore = async (e) => {
 
   let result = null;
   result = user ? await createScore(game.game.id, scoreObject) : result;
-  const errorDisplay = addScoreForm.querySelector('.message.error')
+  const errorDisplay = addScoreForm.querySelector('.message.error');
   if (result === false) {
     errorDisplay.classList.remove('hide');
     setTimeout(() => {

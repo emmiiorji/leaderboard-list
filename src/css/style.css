@@ -56,7 +56,7 @@ main h1 {
 }
 
 .message.error {
-  color: #ff0000;
+  color: #f00;
   font-size: initial;
   padding-bottom: 10px;
   text-align: left;
