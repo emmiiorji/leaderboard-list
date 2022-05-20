@@ -20,7 +20,7 @@
           <h2>Recent Scores</h2>
           <button type="button" id="refresh">Refresh</button>
         </header>
-        <p class="message">Created scores will appear here. Please, add a score</p>
+        <p class="message hide">Created scores will appear here. Please, add a score</p>
         <table class="score-table">
           <thead>
             <tr>
@@ -32,7 +32,7 @@
         </table>
       </section>
       <form id="add-score">
-        <p class="message error"></p>
+        <p class="message error hide">An Error occurred! Could not save score</p>
         <h2>Add your score</h2>
         <input type="text" id="name" placeholder="Your name" required>
         <input type="number" id="score" placeholder="Your score" required>
