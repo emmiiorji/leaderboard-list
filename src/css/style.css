@@ -147,7 +147,15 @@ input:focus {
 
 footer {
   min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
 }
+
+/* footer p {
+  margin-top: auto;
+} */
 
 @media only screen and (max-width: 600px) {
   .scores-container {
