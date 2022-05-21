@@ -38,6 +38,7 @@ main {
 
 main h1 {
   margin: 30px 5% 0 5%;
+  font-size: 26px;
 }
 
 .scores-container {
@@ -71,6 +72,7 @@ main h1 {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 10px;
+  color: #050505;
 }
 
 .message.error {
