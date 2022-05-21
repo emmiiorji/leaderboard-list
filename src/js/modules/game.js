@@ -5,7 +5,7 @@ class Game {
   async init() {
     try {
       this.game = { id: '肢肂聿肂職聯聻肐聿肇聥肚聠肂聾肣肟聶聸聧' };
-      // Replace above RHS with "JSON.parse(localStorage.getItem(storageKey))"
+      // Replace above RHS with "JSON.parse(localStorage.getItem(storageKey))" (import storageKey)
       // when you're to let each device create a new game in clients local storage;
 
       this.game.id = caesarsCipherDecrypt(this.game.id);

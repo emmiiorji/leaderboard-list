@@ -64,6 +64,10 @@ const handleCreateScore = async (e) => {
     tdScore.appendChild(document.createTextNode(score));
     tr.appendChild(tdUser);
     tr.appendChild(tdScore);
+
+    messageDisplay.classList.add('hide');
+    scoreTable.classList.remove('hide');
+
     scoreTableBody.appendChild(tr);
   }
 
