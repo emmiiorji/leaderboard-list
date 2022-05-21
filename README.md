@@ -2,7 +2,7 @@
 
 The leaderboard website displays scores submitted by different players of a game. It also allows you to submit your score. All data is preserved thanks to [an external Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
-It demonstrates using a medium-fidelity wireframe to create a UI.
+The project demonstrates, among other things, the ability of using a medium-fidelity wireframe to create a UI.
 
 Here's the wireframe for the UI:
 
