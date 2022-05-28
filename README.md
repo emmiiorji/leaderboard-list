@@ -1,6 +1,19 @@
-# todo-list
+# Scriptmond Game Leaderboard
 
 The leaderboard website displays scores submitted by different players of a game. It also allows you to submit your score. All data is preserved thanks to [an external Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
+
+The project demonstrates, among other things, the ability of using a medium-fidelity wireframe to create a UI.
+
+Here's the wireframe for the UI:
+
+![image](https://user-images.githubusercontent.com/20554583/169661654-46aaf05b-616f-4ca9-9f51-8aa86bdeeb36.png)
+
+
+Below is a video demo of the project:
+
+
+
+https://user-images.githubusercontent.com/20554583/169661734-040f3cca-0bb1-4603-be9d-0931a65707a7.mp4
 
 
 ## Built With
