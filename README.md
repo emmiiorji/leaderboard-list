@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/20554583/169661734-040f3cca-0bb1-4603-
 
 ## Live Demo
 
-[Live Demo Link](https://emmiiorji.github.io/leaderboard-list/)
+Live demo [here](https://emmiiorji.github.io/leaderboard-list/)
 
 
 ## Getting Started
